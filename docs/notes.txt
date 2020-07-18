@@ -1,0 +1,21 @@
+07/18/2020
+--------------------------------------------------------
+In order to use the serial port, the user should have permissions to connect to that port. The two groups to add are: tty and dialout. This is done by using the usermod command with the add-group flags (-a -g) then rebooting or logging out and logging back in for the changes to reflect.
+	sudo usermod -a -g tty paul
+	sudo usermod -a -g dialout paul
+Screen or putty is then used to connect to the serial port. The Ultra96 serial adapter provides a JTAG(ttyUSB0) and serial(ttyUSB1) interface. The commands for connecting to the serial port is:
+	screen /dev/ttyUSB1 115200 or
+	putty -serial /dev/ttyUSB1 -sercfg 8,1,115200,n,N 
+		-sercfg [# data bits], [# stop bits], [baudrate], [parity], [flow contro]
+	
+
+07/17/2020
+--------------------------------------------------------
+To build petalinux, there is a bug in 2019.2, so follow the following steps (https://www.hackster.io/whitney-knitter/petalinux-2019-2-on-ultra96-using-bsp-recipe-patch-6e0920):
+    vim <PetaLinux_installation_directory>/2019.2/components/yocto/source/aarch64/layers/meta-petalinux/recipes-utils/arduino-toolchain/arduino-toolchain_1.0.bb
+    Update line 10 of arduino-toolchain_1.0.bb to the following:
+        "http://http.us.debian.org/debian/pool/main/e/elfutils/libelf1_0.176-1.1_arm64.deb;subdir=avrgcc;unpack=false;name=libelf1 \"
+    
+    Then update the hashes for the Debian package in lines 29 and 30:
+        SRC_URI[libelf1.md5sum] = "a9244703eec4735e54108001cee4c408" 
+        SRC_URI[libelf1.sha256sum] = "7c550a5eb057ec5c38f37e79eba476785e3a84097f7b740866db39012b99470f"
