@@ -1,3 +1,33 @@
+07/21/2020
+--------------------------------------------------------
+To build a working image and rootfs using petalinux, do the following:
+    run the petalinux settings.sh to setup the environment
+    petalinux-create -t project -s PATH-TO-BSP --name NAME
+    cd NAME
+    petalinux-build
+    petalinux-package --boot --fpga hardware/ULTRA96V2_2019_2/ULTRA96V2.runs/impl_1/ULTRA96V2_wrapper.bit --u-boot --format BIN
+    partition sd card: 
+        1GB, fat32, label=boot, mark as bootable
+        remainder (at least 4GB), ext4, label=rootfs
+
+        To make the partitions:
+            sudo fdisk
+
+        To format the partitions:
+            sudo mkfs.vfat /dev/sdc1 -F 32 -n boot
+            sudo mkfs.ext4 /dev/sdc2 -L rootfs
+    Copy image.ub, BOOT.bin to boot partition
+    Extract images/linux/rootfs.cpio onto the rootfs partition
+    Sync cache with permanent storage:
+        sync
+    Unmount the boot and rootfs partitions
+
+The history of all commands used can be viewed with the "history" command.
+
+Make sure to use the "sync" command to make sure all data not written back from cache to a permanent storage is written back
+before unmounting the sd card. To watch the progess of the sync, run (shows all dirty data in cache, but should be approximate):
+    watch -d grep -e Dirty: -e Writeback: /proc/meminfo
+
 07/18/2020
 --------------------------------------------------------
 In order to use the serial port, the user should have permissions to connect to that port. The two groups to add are: tty and dialout. This is done by using the usermod command with the add-group flags (-a -g) then rebooting or logging out and logging back in for the changes to reflect.
