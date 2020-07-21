@@ -1,0 +1,605 @@
+    1  cd /tools
+    2  man chmod
+    3  sudo chmod u+rwx -R /opt/
+    4  sudo chmod rwx -R /opt/
+    5  sudo chmod arwx -R /opt/
+    6  sudo chmod a+rwx -R /opt/
+    7  bash Xilinx_Unified_2019.2_1106_2127_Lin64.bin 
+    8  bash amdgpu-pro-preinstall.sh 
+    9  mkdir /tools/Xilinx
+   10  mkdir /tools
+   11  sudo mkdir /tools
+   12  sudo mkdir /tools/Xilinx
+   13  ls /tools
+   14  sudo rmdir -R /tools
+   15  sudo rmdir /tools
+   16  sudo rmdir /tools/Xilinx/
+   17  sudo rmdir /tools
+   18  sudo mkdir /opt/Xilinx
+   19  sudo chown paul /opt
+   20  man chown
+   21  sudo chown -R paul /opt
+   22  ls -h /opt
+   23  ls -la
+   24  ls -la /opt
+   25  sudo add-apt-repository universe
+   26  sudo apt-get install fira-code
+   27  sudo apt-get install fonts-firecode
+   28  sudo apt-get install fonts-firacode
+   29  ps aux | grep -i apt
+   30  sudo apt-get install fonts-firacode
+   31  ps aux | grep -i apt
+   32  man grep
+   33  man ps
+   34  man aux
+   35  man |
+   36  ps aux | grep -i apt
+   37  ps aux
+   38  ps aux | grep -i apt
+   39  kill 7400
+   40  sudo kill 7400
+   41  sudo kill 7404
+   42  ps aux | grep -i apt
+   43  sudo apt-get install fonts-firacode
+   44  ls /opt/Xilinx/
+   45  mkdir /opt/Xilinx/PetaLinux
+   46  cd ~/Downloads/
+   47  bash petalinux-v2019.2-final-installer.run --help
+   48  echo $SHELL
+   49  bash petalinux-v2019.2-final-installer.run /opt/Xilinx/PetaLinux/
+   50  source petalinux-v2019.2-final-installer.run /opt/Xilinx/PetaLinux/
+   51  nano petalinux_installation_log 
+   52  sudo apt-get install gzip
+   53  bash petalinux-v2019.2-final-installer.run 
+   54  $ sudo apt-get install -y python gawk gcc git make net-tools libncurses5-dev tftpd zlib1g:i386 libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev screen pax gzip
+   55  sudo apt-get install -y python gawk gcc git make net-tools libncurses5-dev tftpd zlib1g:i386 libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev screen pax gzip
+   56  bash petalinux-v2019.2-final-installer.run 
+   57  bash petalinux-v2019.2-final-installer.run /opt/Xilinx/PetaLinux/
+   58  sudo apt-get install git
+   59  cd ..
+   60  ls\
+   61  ls
+   62  ls amdgpu-pro-20.20-1098277-ubuntu-20.04/
+   63  cd amdgpu-pro-20.20-1098277-ubuntu-20.04/
+   64  bash amdgpu-pro-install
+   65  ./amdgpu-pro-install 
+   66  cd ..
+   67  ls
+   68  sudo rm -r amdgpu-pro-20.20-1098277-ubuntu-20.04/
+   69  cd Downloads/
+   70  ls
+   71  cd amdgpu-pro-20.20-1089974-ubuntu-18.04/
+   72  ls
+   73  ./amdgpu-install -h
+   74  sudo ./amdgpu-pro-install 
+   75  sudo ./amdgpu-pro-install --uninstall
+   76  sudo ./amdgpu-pro-install 
+   77  man git
+   78  git gui
+   79  git-gui
+   80  git
+   81  man gitr
+   82  man git
+   83  git -gui
+   84  man git
+   85  cd ../..
+   86  ls
+   87  pwd
+   88  mkdir Git
+   89  ls
+   90  cd Git/
+   91  git --global config user.name Paul Wood
+   92  git config user.name Paul Wood
+   93  man sudo
+   94  sudo -H vim /etc/default/grub
+   95  sudo apt-get install vim
+   96  sudo apt-get install vim -y
+   97  sudo -H vim /etc/default/grub
+   98  info -f grub -n 'Simple configuration'
+   99  sudo -H vim /etc/default/grub
+  100  reboot
+  101  vim /etc/default/grub
+  102  sudo update-grub
+  103  reboot
+  104  sudo vim /etc/default/grub
+  105  reboot
+  106  vim /etc/default/grub
+  107  sudo update-grub
+  108  sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+  109  grub-customizer
+  110  sudo apt-get install grub-customizer
+  111  grub-customizer
+  112  reboot
+  113  pwd
+  114  pwd
+  115  ls
+  116  cd Git
+  117  git clone --help
+  118  git clone https://paulwood15:MybGyP6ao#wweiW2q9%ztrf4w@github.com/paulwood15Ultra96v2-Blinky.git
+  119  git clone --help
+  120  git clone https://github.com/paulwood15/Ultra96v2-Blinky.git 
+  121  mkdir Ultra96v2-Blinky
+  122  ls
+  123  git clone https://github.com/paulwood15/Ultra96v2-Blinky.git Ultra96v2-Blinky
+  124  ls Ultra96v2-Blinky/
+  125  mkdir sha256-accelerator
+  126  cd ..
+  127  ls
+  128  cd .vscode/
+  129  ls
+  130  cd extensions/
+  131  ls
+  132  vscode -h
+  133  code -h
+  134  ls
+  135  cd hedinne.popping-and-locking-vscode-2.0.7/
+  136  ls
+  137  cd themes
+  138  ls
+  139  code popping-and-DDDDDDDDDDDDCCCCCCCCCCCCCCCCDClocking.json 
+  140  cd ~
+  141  cd Git/
+  142  ls
+  143  cd sha256-accelerator/
+  144  ls
+  145  git clone https://github.com/paulwood15/sha256-accelerator
+  146  cd ..
+  147  mkdir Simple-FIFO
+  148  cd 
+  149  cd Git/Simple-FIFO/
+  150  git clone https://github.com/paulwood15/Simple-FIFO.git
+  151  ls
+  152  cd ../sha256-accelerator/
+  153  ls
+  154  cd ..
+  155  sudo rm -r sha256-accelerator/
+  156  rm -r sha256-accelerator/
+  157  ls
+  158  sudo rm -r Simple-FIFO/
+  159  ls
+  160  git clone https://github.com/paulwood15/Simple-FIFO
+  161  ls
+  162  git clone https://github.com/paulwood15/sha256-accelerator
+  163  git config --global user.name Paul Wood
+  164  git config --global user.email pmwood@pm.me
+  165  cd Simple
+  166  cd Simple-FIFO/
+  167  vim test.txt
+  168  ls
+  169  vim README.md 
+  170  git status
+  171  git commit -a "Updated readme"
+  172  git add --help
+  173  git add -A
+  174  git commit -m "Updated readme"
+  175  git status
+  176  git push --help
+  177  git push
+  178  git remote -v
+  179  git branch -a
+  180  git status
+  181  ps aux | grep slack
+  182  kill 29737
+  183  ps 
+  184  ps aux
+  185  ps aux | grep slack
+  186  kill 14424
+  187  apt-get --help
+  188  sudo apt-get remove slack
+  189  clea
+  190  clear
+  191  ls
+  192  ls model
+  193  ls .
+  194  ls .*
+  195  vim .gitignore
+  196  mkdir bin
+  197  ls
+  198  git status
+  199  git add -A
+  200  git commit -m "Updated gitignore for bsp files"
+  201  git push
+  202  cd ../Ultra96v2-Blinky/
+  203  ls
+  204  petalinux-create -t project -s bin/ultra96v2_oob_2019_2.bsp --name "petalinux"
+  205  source /opt/Xilinx/PetaLinux/settings.sh
+  206  echo -la /bin/sh
+  207  chsh -h
+  208  chsh -s /bin/bash
+  209  /bin/sh
+  210  echo $SHELL
+  211  source /opt/Xilinx/PetaLinux/settings.sh
+  212  petalinux-create -t project -s bin/ultra96v2_oob_2019_2.bsp --name "petalinux"
+  213  cd petalinux/
+  214  petalinux-build
+  215  ls ..
+  216  code
+  217  code notes.txt
+  218  ls /opt/Xilinx/PetaLinux/
+  219  ls /opt/Xilinx/
+  220  ls /opt/Xilinx/Vivado/
+  221  mkdir /opt/Xilinx/2019.2
+  222  sudo mv -R /opt/Xilinx/PetaLinux/* /opt/Xilinx/2019.2/
+  223  sudo mv /opt/Xilinx/PetaLinux/* /opt/Xilinx/2019.2/
+  224  mv /opt/Xilinx/2019.2 /opt/Xilinx/PetaLinux/
+  225  ls /opt/Xilinx/PetaLinux/
+  226  ls /opt/Xilinx/PetaLinux/2019.2/
+  227  vim /opt/Xilinx/PetaLinux/2019.2/components/yocto/source/aarch64/layers/meta-petalinux/recipes-utils/arduino-toolchain/arduino-toolchain_1.0.bb
+  228  /opt/Xilinx/PetaLinux/2019.2/settings.sh
+  229  sudo chown -R $USER:$USER /opt
+  230  /opt/Xilinx/PetaLinux/2019.2/settings.sh
+  231  source /opt/Xilinx/PetaLinux/2019.2/settings.sh
+  232  ls ../petalinux
+  233  petalinux-build
+  234  cd ../petalinux/
+  235  petalinux-build
+  236  cd ..
+  237  rm -r petalinux/
+  238  rm -r petalinux/ -y
+  239  rm -h
+  240  rm --help
+  241  rm -r -f petalinux
+  242  ls
+  243  petalinux-create -t project -s bin/ultra96v2_oob_2019_2.bsp --name petalinux
+  244  cd petalinux/
+  245  petalinux-build
+  246  ls
+  247  ls hardware/
+  248  ls
+  249  ls images/
+  250  ls
+  251  petalinux-package --help
+  252  petalinux-package --boot --help
+  253  petalinux-package --boot --format BIN --fsbl images/linux/zynqmp_fsbl.elf --u-boot
+  254  ls
+  255  ls build/
+  256  ls images
+  257  ls images/linux/
+  258  cd /
+  259  ls
+  260  cd /mnt\
+  261  cd /mnt
+  262  ls
+  263  ls ../dev
+  264  ls ../media
+  265  cd ../media
+  266  ls
+  267  ls paul/
+  268  cd ..
+  269  mount --help
+  270  man mount
+  271  df
+  272  df --help
+  273  man df
+  274  df
+  275  fdisk -l
+  276  df
+  277  sudo umount /media/paul
+  278  sudo umount /media/paul/boot
+  279  df
+  280  sudo fdisk
+  281  sudo fdisk -l
+  282  sudo fdisk -l | grep Device
+  283  df
+  284  sudo umount /dev/sdc2
+  285  df
+  286  fdisk -l
+  287  sudo mount /dev/sdc
+  288  ls /etc/fstab
+  289  ls /etc/
+  290  vim /etc/fstab
+  291  sudo fdisk -l
+  292  sudo umount /dev/sdc*
+  293  sudo umount /dev/sdc1
+  294  sudo mount /dev/sdc1 /media/paul/boot
+  295  df
+  296  sudo umount /dev/sdc1 
+  297  sudo mount /dev/sdc1 /media/paul/boot
+  298  sudo fdisk -l
+  299  df
+  300  sudo umount /dev/sdc1 
+  301  df
+  302  sudo umount /dev/sdc1 
+  303  df
+  304  sudo fdisk -l
+  305  ls /media/paul/root/sudo mkdir /media/paul/boot
+  306  mkdir /media/paul/boot
+  307  sudo mkdir /media/paul/boot
+  308  sudo mount /dev/sdc1 /media/paul/boot
+  309  vim /etc/fstab
+  310  man fdisk
+  311  fdisk
+  312  man fdisk
+  313  sudo fdisk /dev/sdc
+  314  man mkfs
+  315  mkfs --help
+  316  df
+  317  sudo fdisk -l
+  318  sudo fdisk /dev/sdc
+  319  sudo fdisk -l
+  320  sudo mkfs -t fat32 /dev/sdc1
+  321  sudo mkfs -t vfat /dev/sdc1
+  322  sudo mkfs -t ext4 /dev/sdc2
+  323  sudo fdisk -l
+  324  df -T
+  325  sudo fdisk -l
+  326  ls /media/paul/
+  327  sudo mkdir /media/paul/root
+  328  sudo mount /dev/sdc1 /media/paul/boot
+  329  sudo mount /dev/sdc2 /media/paul/root
+  330  sudo fdisk /dev/sdc
+  331  man mkfs
+  332  e2label /dev/sdc1 BOOT
+  333  sudo e2label /dev/sdc1 BOOT
+  334  sudo e /dev/sdc2 ROOT
+  335  sudo e2label /dev/sdc2 ROOT
+  336  sudo umount /dev/sdc1
+  337  sudo reiserfstune -l BOOT /dev/sdc1
+  338  sudo apt-get install reiserfstune
+  339  sudo fatlabel --help
+  340  fatlabel /dev/sdc1 BOOT
+  341  sudo fatlabel /dev/sdc1 BOOT
+  342  df -T
+  343  mkfs.vfat --help
+  344  mkfs.vfat -F 32 -n boot /dev/sdc1
+  345  sudo umount /dev/sdc1
+  346  mkfs.vfat -F 32 -n boot /dev/sdc1
+  347  sudo mkfs.vfat -F 32 -n boot /dev/sdc1
+  348  umount /dev/sdc2
+  349  sudo mkfs.ext4 --help
+  350  sudo mkfs.ext4 -L root /dev/sdc2
+  351  sudo mount /dev/sdc1 /media/paul/boot
+  352  sudo mount /dev/sdc2 /media/paul/root
+  353  sudo fdisk /dev/sdc
+  354  sudo fdisk -l
+  355  df -T
+  356  sudo cp ~/Git/Ultra96v2-Blinky/petalinux/images/linux/BOOT.BIN /media/paul/boot
+  357  sudo cp ~/Git/Ultra96v2-Blinky/petalinux/images/linux/image.ub /media/paul/boot
+  358  ls /dev
+  359  cu --help
+  360  sudo apt-get install minicom
+  361  man dmesg
+  362  dmesg
+  363  dmesg | grep serial
+  364  dmesg | grep tty
+  365  dmesg
+  366  dmesg clear
+  367  dmesg -clear
+  368  dmesg --clear
+  369  man dmesg
+  370  sudo dmesg -c
+  371  minicom -s
+  372  sudo minicom -s
+  373  ls
+  374  minicom
+  375  cd /dev/serial
+  376  ls
+  377  sudo minicom -s
+  378  cd /dev/serial
+  379  ls
+  380  cd by-path/
+  381  ls
+  382  cd ..
+  383  cd by-id/
+  384  ls
+  385  cd ../
+  386  cd by-p
+  387  cd by-path/
+  388  ls
+  389  ls /dev
+  390  ls /dev\
+  391  ls /dev
+  392  cd
+  393  ls /dev/ | grep tty
+  394  diff
+  395  diff --help
+  396  ls /dev | grep tty >> without.txt
+  397  ls /dev | grep tty >> with.txt
+  398  diff without.txt with.txt
+  399  sudo screen /dev/ttyUSB1 115200
+  400  dmesg
+  401  man dmesg
+  402  dmesg --help
+  403  dmesg -l info, notice
+  404  dmesg -l info notice
+  405  dmesg -l info
+  406  dmesg
+  407  man dmesg
+  408  dmesg -k
+  409  ckear'
+  410  clear
+  411  screen
+  412  clear
+  413  sudo cp Git/Ultra96v2-Blinky/petalinux/images/linux/system.dtb /media/paul/boot1
+  414  mkdir /media/paul/boot
+  415  ls /media/paul
+  416  rmdir /media/paul/boot
+  417  sudo rmdir /media/paul/boot
+  418  sudo rmdir /media/paul/root
+  419  sudo screen /dev/ttyUSB0 115200
+  420  sudo tar -xvf Git/Ultra96v2-Blinky/petalinux/images/linux/rootfs.tar.gz -C /media/paul/root
+  421  ls /media/paul
+  422  sudo umount /media/paul/boot
+  423  ps
+  424  ps aux
+  425  sudo umount -f /media/paul/boot
+  426  screen --help
+  427  screen -r
+  428  screen /dev/ttyUSB1 115200
+  429  dmesg
+  430  dmesg | grep tty
+  431  sudo screen /dev/ttyUSB0 115200
+  432  man screen
+  433  screen --help
+  434  screen /dev/ttyUSB0 115200,cs8
+  435  sudo screen /dev/ttyUSB0 115200,cs8
+  436  sudo apt-get install putty
+  437  putty
+  438  sudo putty
+  439  putty --help
+  440  groups $USER
+  441  groups /dev/ttyUSB0
+  442  ls -ld /dev/ttyUSB0
+  443  sudo gpasswd --add $USER dialout
+  444  putty 
+  445  sudo putty /dev/ttyUSB0 -serial -sercfg 9600,8,n,1,N
+  446  sudo putty /dev/ttyUSB0 -serial -sercfg 115200,8,n,1,N
+  447  dmesg | grep ttyUSB
+  448  putty
+  449  sudo putty
+  450  putty
+  451  gksudo
+  452  sudo apt-get install gksudo
+  453  sudo apt-get install setserial
+  454  setserial --help\
+  455  setserial --help
+  456  man setserial
+  457  setserial -a /dev/ttyUSB0
+  458  groups $USER
+  459  setserial -a /dev/ttyUSB0
+  460  setserial -a /dev/ttyUSB1
+  461  putty
+  462  sudo apt-get install ftdi
+  463  dmesg | grep tty
+  464  sudo usermod -aG tty $USER
+  465  sudo usermod -aG dialout $USER
+  466  putty /dev/ttyUSB1 -sercfg 8,1,115200,n,N
+  467  putty -serial /dev/ttyUSB1 -sercfg 8,1,115200,n,N
+  468  screen /dev/ttyUSB1 115200
+  469  clear
+  470  screen /dev/ttyUSB1 115200
+  471  putty -serial /dev/ttyUSB1 -sercfg 8,1,115200,n,N
+  472  ps aux | grep screen
+  473  ps aux
+  474  sudo kill 2800
+  475  ps aux
+  476  screen /dev/ttyUSB1 115200
+  477  ps aux
+  478  sudo kill 2858
+  479  screen /dev/ttyUSB1 115200
+  480  putty
+  481  lsusb
+  482  putty
+  483  man putty
+  484  putty -serial
+  485  putty -serial --help
+  486  man putty
+  487  cd Git/Ultra96v2-Blinky/
+  488  git status
+  489  git add -a
+  490  git add -A
+  491  git commit -m "generated petalinux project and built images, but it currently doesn't finish booting the kernal. The FSBL and U-Boot start without a problem. Also added notes for connecting to a serial port as it took a while for me to figure out."
+  492  git push
+  493  groups --help
+  494  groups paul
+  495  man putty
+  496  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' 
+  497  sudo apt install --install-recommends winehq-stable
+  498  add-apt-repository --help
+  499  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' -s
+  500  wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+  501  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' -s
+  502  sudo apt install --install-recommends winehq-stable
+  503  sudo apt update
+  504  sudo apt-get update
+  505  sudo apt install --install-recommends winehq-stable
+  506  sudo apt install --install-recommends wine-stable
+  507  sudo dpkg --add-architecture i386 
+  508  sudo apt install --install-recommends wine-stable
+  509  sudo apt install --install-recommends wine-stable-i386
+  510  ls /dev
+  511  ls /dev | grep ttyUSB
+  512  screen /dev/ttyUSB1 115200
+  513  ps aux | grep SCREEN
+  514  sudo kill 10703
+  515  ps aux | grep SCREEN
+  516  putty -serial /dev/ttyUSB1 -sercfg 8,1,115200,n,N 
+  517  screen --help
+  518  screen /dev/ttyUSB1 115200 -t ultra96
+  519  ps aux 
+  520  ps aux | grep SCREEN
+  521  screen -r ultra96
+  522  screen -r 
+  523  ls
+  524  dd --help
+  525  cd Git
+  526  ls Ultra96v2-Blinky/
+  527  sudo rm -r petalinux
+  528  cd Ultra96v2-Blinky/
+  529  sudo rm -r petalinux
+  530  source /opt/Xilinx/PetaLinux/2019.2/settings.sh
+  531  petalinuxl-create -t project -s hw/ultra96v2_oob_2019_2.bsp  --name petalinux
+  532  petalinux-create -t project -s hw/ultra96v2_oob_2019_2.bsp  --name petalinux
+  533  cd petalinux
+  534  petalinux-build
+  535  petalinux-package --boot --fpga hardware/ULTRA96V2_2019_2/ULTRA96V2.runs/impl_1/ULTRA96V2_wrapper.bit --u-boot --format BIN
+  536  rm -r /media/paul/root 
+  537  rm -r /media/paul/root -y
+  538  rm --help
+  539  rm -r /media/paul/root -f
+  540  sudo rm -r /media/paul/root -f
+  541  ps aux | grep root
+  542  ps aux | grep /media/paul
+  543  ps aux
+  544  ps aux | grep /dev/sdc
+  545  sync
+  546  man sync
+  547  clear
+  548  sudo cp images/linux/image.ub /media/paul/root
+  549  sudo cp images/linux/BOOT.BIN /media/paul/root
+  550  tar --help
+  551  sudo cp images/linux/BOOT.BIN /media/paul/boot
+  552  sudo cp images/linux/image.ub /media/paul/boot
+  553  sync
+  554  mkfs.ext4 --help
+  555  sudo mkfs.ext4 /media/paul/root -L rootfs
+  556* sudo fdisk 
+  557  sudo mkfs.ext4 /dev/sdc2 -L rootfs
+  558  sudo fdisk /dev/sdc2
+  559  sudo fdisk /dev/sdc
+  560  sudo mkfs.ext4 /dev/sdc2 -L rootfs
+  561  sudo umount /dev/sdc2
+  562  sudo mkfs.ext4 /dev/sdc2 -L rootfs
+  563  ls -t
+  564  df
+  565  df -t
+  566  df --help
+  567  df -T
+  568  sudo mount /dev/sdc2 /media/paul/rootfs
+  569  sudo rmdir/media/paul/root
+  570  sudo rmdir /media/paul/root
+  571  ls /media/paul
+  572  sudo mkdir /media/rootfs
+  573  sudo mount /dev/sdc2 /media/paul/rootfs
+  574  sudo rmdir /media/rootfs
+  575  sudo mkdir /media/paul/rootfs
+  576  sudo mount /dev/sdc2 /media/paul/rootfs
+  577  df -T
+  578  sudo cp images/linux/rootfs/* /media/paul/rootfs
+  579  sudo cp -r images/linux/rootfs/* /media/paul/rootfs
+  580  sudo umount /dev/sdc
+  581  sudo umount /dev/sdc1
+  582  sync
+  583  sudo umount /dev/sdc2
+  584  sudo umount /dev/sdc1
+  585  history
+  586  mkfs.vfat --help
+  587  screen /dev/ttyUSB1 115200
+  588  screen -l
+  589  screen --help
+  590  screen -list
+  591  ps aux | grep SCREEN
+  592  sudo kill 11742
+  593  screen /dev/ttyUSB1 115200
+  594  cd ..
+  595  git status
+  596  git add -a
+  597  git add -A
+  598  ls petalinux/
+  599  code .gitignore 
+  600  cd petalinux/
+  601  code .gitignore 
+  602  git commit -m "Added linux build instructions for successfully building the Ultra96 demo"
+  603  git push
+  604  cd ../docs
+  605  history >> "cmd-history-07-21-2020.txt"
