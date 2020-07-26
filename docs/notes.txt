@@ -1,3 +1,13 @@
+07/23/2020
+--------------------------------------------------------
+Petalinux config:
+    DTG Settings -> MACHINE_NAME = avnet-ultra96-rev1
+    u-boot Configuration -> u-boot config target = avnet_ultra96_rev1_defconfig
+    Yocto Settings -> YOCT_MACHINE_NAME =  ultra96-xynqmp
+
+Having problem building petalinux project with axi gpio:
+    Error: /home/paul/Git/Ultra96v2-Blinky/petalinux/build/../components/plnx_workspace/device-tree/device-tree/pl.dtsi:8.1-2 syntax error
+
 07/21/2020
 --------------------------------------------------------
 To build a working image and rootfs using petalinux, do the following:
